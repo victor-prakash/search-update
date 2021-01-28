@@ -1,0 +1,45 @@
+body {
+  width: 100%;
+  height: 100vh;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body > form {
+border: 2px solid blue;
+  width: max-content;
+  height: max-content;
+}
+.body > form > .h1 {
+  padding-left: 40px;
+}
+
+.body > form > .table__div {
+  width: 883px;
+  height: 381px;
+}
+.body > form > .table__div > table {
+  width: 749px;
+  height: 268px;
+  border: 0ch;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #ffffff;
+}
+
+.table__div > table tr .table__row__heading {
+  width: 200px;
+  height: 34px;
+  background-color: #efefef;
+}
+
+.table__div > table .table__row__heading > p {
+  float: left;
+}
+.table__div > table .table__row__input {
+  width: 540px;
+  height: 34px;
+  background-color: #efefef;
+}
